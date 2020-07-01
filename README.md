@@ -2,7 +2,7 @@
 《软件设计哲学》
 
 
-[![NHUSne.md.jpg](https://s1.ax1x.com/2020/07/02/NHUSne.md.jpg)](https://imgchr.com/i/NHUSne)
+[![NHUSne.th.jpg](https://s1.ax1x.com/2020/07/02/NHUSne.th.jpg)](https://imgchr.com/i/NHUSne)
 
 
 
