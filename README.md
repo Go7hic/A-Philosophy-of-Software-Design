@@ -7,3 +7,5 @@
 
 
 在线阅读地址：https://go7hic.github.io/A-Philosophy-of-Software-Design/#/
+
+仅仅是为了方便学习，如果你想看双语版的，可以看 [A-Philosophy-of-Software-Design-zh](https://github.com/gdut-yy/A-Philosophy-of-Software-Design-zh)。本仓库很多内容是借鉴那边的。
