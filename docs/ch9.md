@@ -46,11 +46,11 @@
 
 如果相同的代码（或几乎相同的代码）一遍又一遍地出现，那是一个危险信号，您没有找到正确的抽象。
 
-![](./figures/00017.gif)
+![](./images/091.png)
 
 图 9.1：此代码处理不同类型的传入网络数据包。对于每种类型，如果数据包对于该类型而言太短，则会记录一条消息。在此版本的代码中，LOG 语句对于几种不同的数据包类型是重复的。
 
-![](./figures/00018.gif)
+![](./images/091.png)
 
 图 9.2：对图 9.1 中的代码进行了重新组织，因此只有 LOG 语句的一个副本。
 
@@ -178,7 +178,7 @@ Long methods aren’t always bad. For example, suppose a method contains five 20
 
 > 长方法并不总是坏的。例如，假设一个方法包含按顺序执行的五个 20 行代码块。如果这些块是相对独立的，则可以一次读取并理解该方法的一个块。将每个块移动到单独的方法中并没有太大的好处。如果这些块具有复杂的交互作用，则将它们保持在一起就显得尤为重要，这样读者就可以一次看到所有代码。如果每个块使用单独的方法，则读者将不得不在这些扩展方法之间来回切换，以了解它们如何协同工作。如果方法具有简单的签名并且易于阅读，则包含数百行代码的方法就可以了。这些方法很深入（很多功能，简单的接口），很好。
 
-![](./figures/00019.jpeg)
+![](./images/093.png)
 
 Figure 9.3: A method (a) can be split either by by extracting a subtask (b) or by dividing its functionality into two separate methods (c). A method should not be split if it results in shallow methods, as in (d).
 
